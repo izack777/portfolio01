@@ -1,0 +1,103 @@
+body{
+	background-color:lightgray;
+	margin:0 auto;
+}
+/*This is the Nav and Header*/
+header{
+	
+	background-color:black;
+	text-align:center;
+	color:white;
+}
+
+nav{
+	display:flex;
+	justify-content:space-around;	
+}
+
+
+#headList{
+	display:inline-block;
+	margin:10px 5px;
+}
+
+
+h1{
+	margin-left:500px;
+}
+
+#list{
+	list-style-type: none;
+	text-align:left;
+	display:inline-block;
+}
+/*
+display flex Wekit and the begining of the body*/
+
+.container{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+/*parent atribute */
+
+.column{
+	flex:2;
+}
+
+/*Columns from left to right*/
+.column1{
+	flex:1;
+	margin-left:10%;
+
+}
+
+.column2{
+	flex:3;
+	margin-left:2%;
+	margin-top: 45px;
+}
+
+.column3{
+	flex:2.5;
+	margin-left:15%;
+	margin-top: 10px;
+}
+
+.bullshit{
+	float:right;
+}
+
+/*Picture effect*/
+
+#cf:hover{
+	-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+     transform: scale(1.3);
+
+}
+/*footer*/
+footer{
+	background-color: black;
+	text-align: center;
+	color:white;
+	position: fixed;
+	bottom:0;
+	width:100%;
+	padding:20px;
+
+
+}
+
+
+
+	
+
+
+
+
+
+
